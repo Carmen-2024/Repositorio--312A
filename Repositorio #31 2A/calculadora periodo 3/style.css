@@ -1,0 +1,35 @@
+.calculadora{
+    background-color: rgb(179, 235, 235);
+    width: 200px;
+    text-align: center;
+    
+    
+}
+.contenedor{
+    /* max-width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5rem; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    width: 75px;
+    margin: auto;
+    height: 30px;
+    background-color: rgb(230, 231, 231);
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
